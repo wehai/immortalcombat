@@ -77,7 +77,7 @@ export class GameScene extends Phaser.Scene
       this.bladder = 99;
       this.schlagfertigkeit = 8;
       this.gameOver = false;
-      this.selfesteem = 50;
+      this.selfesteem = 500;
       this.energy = 99;
       this.energyfr = 99;
       this.insults =[
