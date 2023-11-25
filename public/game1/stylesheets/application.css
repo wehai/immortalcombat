@@ -1,0 +1,151 @@
+@font-face {
+  font-family: cesar;
+  src: url("../assets/fonts/CaesarDressing-Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family:  mont;
+  src: url("../assets/fonts/Montserrat-VariableFont_wght.ttf")
+    format("truetype");
+}
+
+
+        * {
+            margin: 0;
+           font-family: cesar;
+        }
+#textbox{
+
+  font-size: 30px;
+  display: none;
+  position: fixed;
+  width:300px;
+ 
+  text-align: center;
+  left: 450px;
+  padding: 40px;
+  
+top: 150px;
+border: 2px blue;
+z-index: 1;
+border-radius: 80px;
+/*background-image: url("assets/sun.png");
+background-repeat: no-repeat;
+background-size: cover;
+
+background-color: #c38904;
+box-shadow:  0 0  20px 15px #c38904;*/
+
+}
+
+video{
+  display:block;
+ position: fixed;
+left: 0;
+top: 0;
+width: 1280px;
+height: 1024px;
+
+z-index: -1;
+
+
+}
+   #bars{
+    display:"none";
+    position:fixed;
+    top:0;
+    left:0;
+      width: 1280px;
+height: 1024px;
+background-image: url("../assets/justbars2.png");
+z-index: 1;
+    } 
+    #mainmenu{
+      display: block;
+      position:fixed;
+      top:0;
+      left:0;
+        width: 1280px;
+  height: 1024px;
+  background-image: url("../assets/MAINMENU.png");
+  z-index: 1;
+      } 
+      #logo{
+        display: none;
+        position:fixed;
+       
+        top:250px;
+        left:340px; 
+           width: 600px;
+         height: 400px;  
+         background-image: url("../assets/logo3.png");   
+        background-size:     cover;                      /* <------ */
+        background-repeat:   no-repeat;
+        background-position: center center;
+  
+    z-index: 2;
+        } 
+      #controls{
+        display: none;
+        position:fixed;
+        top:0;
+        left:0;
+          width: 1280px;
+    height: 1024px;
+    background-image: url("../assets/controls.png");
+    z-index: 2;
+        }
+      #eaglewins{
+        display: none;
+        position:fixed;
+        top:0;
+        left:0;
+          width: 1280px;
+    height: 1024px;
+    background-image: url("../assets/eaglewins.png");
+    z-index: 2;
+        }
+        #promiwins{
+          display: none;
+          position:fixed;
+          top:0;
+          left:0;
+            width: 1280px;
+      height: 1024px;
+      background-image: url("../assets/prometwins.png");
+      z-index: 2;
+          }
+#intro{
+ 
+  z-index: -2;
+
+}
+#pscore{
+  display:none;
+  left: 890px;
+  top: 180px;
+  position:fixed;
+  font-size: 80px;
+  color:#c48637;
+  z-index: 3;
+}
+#escore{
+  display:none;
+  left: 320px;
+  top: 180px;
+  position:fixed;
+  font-size: 80px;
+  color:#c48637;
+  z-index: 3;
+}
+#dayscore{
+  text-align: center;
+  display:none;
+  left: 615px;
+  top: 105px;
+  position:fixed;
+  font-size: 25px;
+  color:#c48637;
+  z-index: 3;
+}
